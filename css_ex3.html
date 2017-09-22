@@ -5,26 +5,17 @@
   <title>Title</title>
 
   <style>
-  .dropdown {
-      position: relative;
-      display: inline-block;
+  .hover {
+      width: 100px;
+      height: 100px;
+      background: red;
+      -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+      transition: width 2s;
   }
 
-  .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      padding: 12px 16px;
-      z-index: 1;
+  div:hover {
+      width: 1200px;
   }
-  .dropdown:hover .dropdown-content {
-      display: block;
-  }
-
-
-
 
 .flag4{
   background-color: red;
@@ -90,6 +81,8 @@ body {
 
 <body>
 
+<div class="hover">
+</div>
 
 <div>
 <p class="flag2"> red
