@@ -1,10 +1,24 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <title>Title</title>
-
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Old+Standard+TT:400i|Parisienne" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Martel:200" rel="stylesheet">
   <style>
+
+  .spin {
+      width: 400px;
+      height: 280px;
+      background: red;
+      -webkit-transition: width 4s;
+      transition: width 4s;
+  }
+
+  .spin:hover {
+      width: 2000px;
+  }
   .hover {
       width: 400px;
       height: 90px;
@@ -13,8 +27,8 @@
       transition: width 4s;
   }
 
-  div:hover {
-      width: 1700px;
+  .hover:hover {
+      width: 2000px;
   }
 
 .flag4{
@@ -34,21 +48,12 @@
   background-color: red;
   color: red;
 }
-.intro {
-    border: 10px solid blue;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 10px;
-    margin-left: 15px;
-    background-color: white;
 
-
-}
 h2 {
   border-style: double;
-    border-bottom-width: 10px;
+    border-bottom-width: 5px;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Old Standard TT', serif;
     font-weight:900;
     font-size: 50px;
     color: white;
@@ -56,12 +61,15 @@ h2 {
 }
 
 .intro {
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   text-align: center;
-  font-family: serif;
-  font-weight: lighter;
+  font-family: 'Martel', serif;
+  font-weight: bold;
   font-size: 20px;
+  color: black;
 }
+
 
 body {
   background-color: white;
@@ -76,27 +84,28 @@ body {
 
 <body>
 
-<div class="hover"> <h2>Amendment V</h2>
+<div class="hover"> <h2>Amendment I</h2>
 </div>
 
-<div>
+
 <p class="flag2"> red
 </p>
   <p class="flag"> Red
-
   </p>
+  <div class="spin">
+  <p class="intro"> Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the government for a redress of grievances.
 
-
-
-<p class="intro">No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a grand jury, except in cases arising in the land or naval forces, or in the militia, when in actual service in time of war or public danger; nor shall any person be subject for the same offense to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.
-</p>
-
-<p class="flag3"> red
-</p>
-
-<p class="flag4"> red
 </p>
 </div>
+
+    <p class="flag3"> red
+    </p>
+      <p class="flag4"> red
+       </p>
+
+
+
+
 
 
 
