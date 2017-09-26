@@ -9,27 +9,94 @@
   <style>
 
   .spin {
+      position: relative;
+
       width: 400px;
-      height: 280px;
+      height: 290px;
       background: red;
       -webkit-transition: width 4s;
       transition: width 4s;
+      z-index: 100;
+
   }
 
   .spin:hover {
-      width: 2000px;
+      width: 1655px;
+
   }
   .hover {
       width: 400px;
       height: 90px;
-      background: black;
+      background: blue;
       -webkit-transition: width 4s;
       transition: width 4s;
   }
 
   .hover:hover {
-      width: 2000px;
+      width: 4000px;
   }
+.spin2{
+  position: absolute;
+  left: 600px;
+    top: 190px;
+}
+.mydiv{
+  position: absolute;
+
+}
+
+.mydiv0 {
+  top: 62px;
+  left: -104px;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+  .mydiv1 {
+    top: 62px;
+    left: 236px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+
+  .mydiv2 {
+    top: 62px;
+    left: 580px;
+    width: 300px;
+    height: 100px;
+      width: 300px;
+      height: 100px;
+      background-color: yellow;
+      border: 1px solid black;
+  }
+
+  .mydiv3 {
+    top: 190px;
+    left: 50px;
+    width: 300px;
+    height: 100px;
+      width: 300px;
+      height: 100px;
+      background-color: yellow;
+      border: 1px solid black;
+
+  }
+
+  .mydiv4 {
+    top: 190px;
+    left: 400px;
+    width: 300px;
+    height: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+
+
 
 .flag4{
   background-color: red;
@@ -61,13 +128,14 @@ h2 {
 }
 
 .intro {
+
   margin-top: 20px;
   margin-bottom: 50px;
   text-align: center;
   font-family: 'Martel', serif;
   font-weight: bold;
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
 
@@ -90,18 +158,45 @@ body {
 
 <p class="flag2"> red
 </p>
-  <p class="flag"> Red
-  </p>
-  <div class="spin">
-  <p class="intro"> Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the government for a redress of grievances.
-
+<p class="flag"> Red
 </p>
+<div class="spin">
+  <p class="intro"> Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the government for a redress of grievances.
+  </p>
+</div>
+<div class="spin2">
+
+    <div class="mydiv mydiv0 ">
+    FREEDOM OF SPEECH.
+    </div>
+
+    <div class="mydiv mydiv1">
+    FREEDOM OF THE PRESS.
+    </div>
+
+    <div class="mydiv mydiv2">
+    FREEDOM OF RELIGON.
+    </div>
+    <div class="mydiv mydiv3">
+    FREEDOM TO ASSEMBLE.
+    </div>
+
+    <div class="mydiv mydiv4">
+    FREEDOM OF PETITION.
+    </div>
 </div>
 
-    <p class="flag3"> red
-    </p>
-      <p class="flag4"> red
-       </p>
+
+<p class="flag3"> red
+</p>
+<p class="flag4"> red
+</p>
+
+
+
+
+
+
 
 
 
