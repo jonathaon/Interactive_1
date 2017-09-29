@@ -6,7 +6,23 @@
 
   <link rel="stylesheet" href="style.css"/>
   <style>
-
+  #mydiv {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  #mydiv:hover {
+    animation: pulse 1s infinite;
+  }
+  @@keyframes  pulse {
+    25%{
+      transform: scale(1.1);
+    }
+    75%{
+      transform: scale(0.9);
+    }
+  }
 
 
 
@@ -19,6 +35,24 @@
 <body>
 
 
+  <div id="mydiv">
+  FREEDOM OF SPEECH.
+  </div>
+
+  <div id="mydiv2">
+  FREEDOM OF THE PRESS.
+  </div>
+
+  <div id="mydiv3">
+  FREEDOM OF RELIGON.
+  </div>
+  <div id="mydiv4">
+  FREEDOM TO ASSEMBLE.
+  </div>
+
+  <div id="mydiv5">
+  FREEDOM OF PETITION.
+  </div>
 
 
 </body>
